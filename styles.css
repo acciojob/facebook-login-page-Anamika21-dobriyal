@@ -1,1 +1,81 @@
 /*  your css code here. If applicable */
+body {
+      margin: 0;
+      font-family: Helvetica, Arial, sans-serif;
+      background: #f0f2f5;
+    }
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	gap: 50px
+	
+}
+.left-section{
+	max-width: 500px;
+}
+.left-section h1{
+	color: #1877f2;
+	font-size: 56px;
+	margin: 0;
+}
+.left-section p{
+	color: #1c1e21;
+	font-size: 24px;
+}
+.login-box {
+	background-color: white;
+	padding: 20px;
+	border-radius: 8px;
+	width: 350px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.login-box input{
+	width: 100%;
+	padding: 14px;
+	margin-bottom: 10px;
+	border: 1px solid #dddfe2;
+	border-radius: 6px;
+	font-size: 16px;
+}
+.login-box button{
+	width: 100%;
+	background-color: #1877f2;
+	border: none;
+	color: white;
+	padding: 14px;
+	border-radius: 6px;
+	font-size:18px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.login-box a{
+	display: block;
+	text-align: center;
+	margin: 12px 0;
+	color: #1877f2;
+	text-decoration: none;
+	font-size: 14px;
+}
+.divider{
+	height: 1px;
+	background-color: #dadde1;
+	margin: 16px 0;
+}
+.create-btn{
+	background-color: #42b72a;
+	padding:12px;
+	font-size: 16px;
+	margin: 0 auto;
+	width: 60%;
+	display: block;
+	border-radius: 6px;
+	border: none;
+	color: whiite;
+	font-weight: bold;
+	cursor: pointer;
+}
+.create-btn:hover{
+	background-color: #36a420;
+}
